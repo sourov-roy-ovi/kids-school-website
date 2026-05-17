@@ -9,8 +9,23 @@
 
 /* Share Style */
 
+header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 .display-flex {
     display: flex;
+}
+
+.btn-primary {
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -20,8 +35,6 @@
     gap: 186px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1160px;
-    margin: 0 auto;
 }
 
 .logo {
@@ -70,12 +83,48 @@
 
 .btn-contact {
     text-decoration: none;
-    /* width: 197px; */
-    /* height: 50px; */
     background-color: orange;
     border-radius: 12px;
     padding: 10px 50px;
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
+}
+
+
+/* Banner Section Style */
+
+.banner-section {
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.banner-content {
+    padding: 122px 0;
+    /* width: 572px; */
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    /* max-width: 640px; */
+    color: black;
+}
+
+#empowering {
+    color: orange;
+}
+
+#towards-vision {
+    color: skyblue;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    color: black;
+    /* max-width: 640px; */
+}
+
+.banner-img {
+    max-width: 469px;
 }
