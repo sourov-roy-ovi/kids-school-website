@@ -209,12 +209,13 @@ main {
     max-width: 368px;
     border-radius: 19px;
     box-shadow: 0 20px 30px #FFFFFF;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
 
-.card:hover {
+
+/* .card:hover {
     transform: translate(-5px);
-}
+} */
 
 .card-kinder {
     background: linear-gradient(180deg, #DEF5FF, #FFFFFF 40%);
@@ -273,4 +274,24 @@ main {
     height: 60px;
     color: #FFFFFF;
     font-size: 24px;
+}
+
+
+/* Curriculum Section responsive for mobile device */
+
+@media screen and (max-width:576px) {
+    .curriculam-section {
+        width: 90%;
+    }
+    .section-title {
+        font-size: 1.62rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .buttons {
+        display: none;
+    }
 }
