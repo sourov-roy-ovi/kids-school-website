@@ -18,7 +18,8 @@
 
 /* Share Style */
 
-header {
+header,
+.curriculam-section {
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -35,6 +36,20 @@ header {
     border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.section-title {
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+main {
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
 }
 
 
@@ -172,4 +187,90 @@ header {
     .banner-content {
         padding-top: 12px;
     }
+}
+
+
+/* Curriculum Section */
+
+.section-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.card-container {
+    gap: 28.29px;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    max-width: 368px;
+    border-radius: 19px;
+    box-shadow: 0 20px 30px #FFFFFF;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translate(-5px);
+}
+
+.card-kinder {
+    background: linear-gradient(180deg, #DEF5FF, #FFFFFF 40%);
+}
+
+.card-elementary {
+    background: linear-gradient(180deg, #FFF4DC, #FFFFFF 40%);
+}
+
+.card-middle {
+    background: linear-gradient(180deg, #F2E8FF, #FFFFFF 40%);
+}
+
+.card-icon {
+    padding: 52.82px 115.5px 0 115.5px;
+    width: 136.76px;
+    height: 136.76px;
+}
+
+.card-title {
+    font-size: 1.6rem;
+}
+
+.card-description {
+    padding: 0 40.67px;
+}
+
+.read-more {
+    text-decoration: none;
+    font-size: 0.94rem;
+    font-weight: bold;
+}
+
+.btn-kinder {
+    color: #64C8FF;
+}
+
+.btn-elementary {
+    color: #F0AA00;
+}
+
+.btn-middle {
+    color: #8700FF;
+}
+
+.buttons {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.slider-btn {
+    border-radius: 30px;
+    background-color: #FEA301;
+    border: none;
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 24px;
 }
