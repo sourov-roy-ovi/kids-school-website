@@ -19,7 +19,8 @@
 /* Share Style */
 
 header,
-.curriculam-section {
+.curriculam-section,
+.our-stories-section {
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -50,6 +51,7 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-color: #FFFFFF;
+    background: linear-gradient(0deg, #e2b972, #FFFFFF 30%);
 }
 
 
@@ -313,4 +315,93 @@ main {
     .buttons {
         display: none;
     }
+}
+
+
+/* Our Stories Section Style */
+
+.our-stories-section {}
+
+.stories-card-container {
+    gap: 18.6px;
+}
+
+.card-large {
+    max-width: 541.27px;
+    max-height: 630.51px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    /* position: relative; */
+}
+
+.large-card-content {
+    padding: 38.63px 38.35px 34.52px 38.35px;
+}
+
+.large-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.large-card-description {
+    font-size: 0.96rem;
+    font-weight: 500;
+}
+
+.img-card-large {
+    max-width: 540px;
+    border-radius: 16px 16px 0 0;
+}
+
+.small-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19.31px;
+}
+
+.card-small {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.badge {
+    width: 174.51px;
+    height: 47.93px;
+    font-size: 0.96rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 14px 19px;
+    border-radius: 47.93px;
+    background-color: #3CD8E8;
+    position: relative;
+    bottom: 15px;
+    left: 38.35px;
+}
+
+.badge-blue {
+    background-color: #3CD8E8;
+}
+
+.badge-small-Olive-Green {
+    background-color: #95B226;
+}
+
+.badge-bright-blue {
+    background-color: #5D58F0;
+}
+
+.small-card-content {
+    max-width: 214px;
+    font-size: 0.96rem;
+    font-weight: bold;
+    padding: 15.33px 39px 0 38px;
+    text-align: start;
+}
+
+.view-btn-container {
+    text-align: center;
+}
+
+.view-all-btn {
+    margin: 80px 0 60px 0;
 }
