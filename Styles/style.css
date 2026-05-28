@@ -552,3 +552,14 @@ main {
 .social-icon img:hover {
     transform: translateY(-5px);
 }
+
+
+/* footer section responsive for mobile device style */
+
+@media screen and (max-width:576px) {
+    .footer-container {
+        flex-direction: column;
+        width: 88%;
+        gap: 32px;
+    }
+}
