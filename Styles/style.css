@@ -10,13 +10,15 @@
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
 }
 
-* {
-    outline: 1px solid red;
-}
 
-.hide {
+/* * {
+    outline: 1px solid red;
+} */
+
+
+/* .hide {
     display: none;
-}
+} */
 
 
 /* Share Style */
@@ -49,11 +51,8 @@ header,
 }
 
 main {
-    background-image: url(/assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #FFFFFF;
+    width: 100%;
+    overflow-x: hidden;
     background: linear-gradient(0deg, #e2b972, #FFFFFF 30%);
 }
 
