@@ -414,3 +414,52 @@ main {
 .view-all-btn {
     margin: 80px 0 60px 0;
 }
+
+
+/* Our stories responsive for mobile device */
+
+@media screen and (max-width:576px) {
+    .our-stories-section {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .stories-card-container {
+        flex-direction: column;
+    }
+    #hide-large-card {
+        display: none !important;
+    }
+    .small-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+    }
+    .small-card-container {
+        width: 90%;
+    }
+    .small-card-content {
+        padding: 0 22px 0 22px;
+    }
+    .card-small,
+    .card-small img {
+        max-width: 143.35px;
+    }
+    .small-card-title {
+        font-size: 0.57rem;
+        max-width: 127px;
+        /* padding: 22px 22.5px 17px 22.5px; */
+    }
+    .badge {
+        max-width: 20.91px;
+        border-radius: 27.54px;
+        font-size: 0.45rem;
+        bottom: 17px;
+        left: 8.35px;
+    }
+    .btn-primary {
+        width: 120px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
