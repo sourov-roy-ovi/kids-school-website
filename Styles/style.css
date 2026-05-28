@@ -165,6 +165,10 @@ main {
         width: 90%;
     }
     /* navbar style */
+    .navigation-bar {
+        width: 89%;
+        margin: 0 auto;
+    }
     .nav-links,
     .btn-contact,
     #logo-tle {
@@ -311,6 +315,9 @@ main {
     }
     .card-container {
         flex-direction: column;
+    }
+    .card {
+        max-width: 350px;
     }
     .buttons {
         display: none;
